@@ -39,7 +39,6 @@ class ServerHandler(SimpleHandler):
                    self.status.split(' ',1)[0], self.bytes_sent
                 )
             else: pass
-            
         finally:
             SimpleHandler.close(self)
 
